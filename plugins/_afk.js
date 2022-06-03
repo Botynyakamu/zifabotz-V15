@@ -25,7 +25,7 @@ conn.reply(test)
 ┆ *Time* : ${clockString(new Date - afkTime)}
 ╰┅────
 `.trim()
-conn.sendButton(m.chat, str, `${wm}`,'Menu', '.menu',m)
+conn.sendButton(m.chat, str, `${watermark}`,'Menu', '.menu',m)
 conn.reply(str)
   }
   return true
