@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
 *📮: SC NO ENC! Harap tidak dijual belikan*
 https://github.com/Botynyakamu/Rzy.botz-M1
 `.trim()
-conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'SCRIPT')).buffer(), ext, '©zifabotz', 'MENU', '.menu', 'OWNER', '.owner2', m)
+conn.send2ButtonImg(m.chat, await (await fetch(fla + 'SCRIPT')).buffer(), ext, '©zifabotz', 'MENU', '.menu', 'OWNER', '.owner2', m)
 
 }
 handler.customPrefix = /^(sclain|.sclain|scriptlain|.scriptlain)$/i
