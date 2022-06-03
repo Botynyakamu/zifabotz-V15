@@ -5,8 +5,7 @@ let handler = async (m, { conn, text }) => {
 ║ ┅ ๑————————————๑
 ║┊ ⌲ *DANA* :
 _085828764046_
-║┊ ⌲ *GOPAY* :
-_085828764046_
+║┊ ⌲ *atau bisa scan di atas!
 ╰═ ┅ ═══════
 ▌│█║▌║▌║║▌║▌║█│▌
 `.trim()
