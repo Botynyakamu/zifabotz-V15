@@ -72,9 +72,9 @@ END:VCARD
     }]
   }, MessageType.contactsArray, { quoted: m })
 }
-handler.help = ['owner', 'creator']
+handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
 
-handler.command = /^(owner|creator)$/i
+handler.command = /^(owner2|creator2)$/i
 
 module.exports = handler
