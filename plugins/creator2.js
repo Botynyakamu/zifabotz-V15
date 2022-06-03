@@ -41,9 +41,9 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
     { quoted: fkon })
   conn.relayWAMessage(res)
 }
-handler.help = ['owner2']
+handler.help = ['owner']
 handler.tags = ['utama']
-handler.command = /^(owner2)$/
+handler.command = /^(owner)$/
 
 module.exports = handler
 
