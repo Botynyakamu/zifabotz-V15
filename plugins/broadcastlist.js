@@ -25,7 +25,7 @@ let handler  = async (m, { conn, text }) => {
           "description": content.trim(),
           "footerText": 
 global.botdate,
-          "buttonText": "*🎐PILIHAN*",
+          "buttonText": "🎐PILIHAN",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
