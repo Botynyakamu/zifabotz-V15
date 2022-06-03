@@ -9,7 +9,7 @@ https://obfuscator.io/
 
 ✧─────···───────✧
 `.trim()
-conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'obfuscator')).buffer(), ext, '©️ zifabotz', 'MENU', '.menu', 'Script', '.sc', m)
+conn.send2ButtonImg(m.chat, await (await fetch(fla + 'obfuscator')).buffer(), ext, '©️ zifabotz', 'MENU', '.menu', 'Script', '.sc', m)
 
 }
 handler.help = ['linkenc']
