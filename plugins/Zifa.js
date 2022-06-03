@@ -9,7 +9,7 @@ let handler = async (m, { conn, text }) => {
 *PEMILIK SC:* wa.me/6287773973818
 ╭═[ [❗] kalau mau beli sc silahkan chat pemilik sc aja ]═────···
 `.trim()
-conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'PRIVASI')).buffer(), ext, '©zifabotz', 'MENU', '.menu', 'SC LAIN', '.sclain', m)
+conn.send2ButtonImg(m.chat, await (await fetch(fla + 'PRIVASI')).buffer(), ext, '©zifabotz', 'MENU', '.menu', 'SC LAIN', '.sclain', m)
 
 }
 handler.customPrefix = /^(sc|.sc|script|.script)$/i
