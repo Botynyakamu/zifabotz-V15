@@ -12,7 +12,7 @@ BIG THANKS TO
 ║╭──❉  •BASE NURUTOMO
 ║╰──❉ •SC ORI RTXYZ
 ═════════════
-`.trim(), watermark, 'TERIMAKASIH👋', '.menu')
+`.trim(), watermark, '🧸OWNER🧸', '.owner2')
 handler.help = ['Thanksto', 'tqto']
 handler.tags = ['main']
 handler.command = /^(tqto|thanks|thanksto|bigthanks)$/i
