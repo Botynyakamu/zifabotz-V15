@@ -16,9 +16,9 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "DONASI ZIFABOTZ",
+        "title": "PASANG IKLAN BOT",
         "description": '\n' + watermark + '\n' + str,
-        "retailerId": "Thanks For Donate !",
+        "retailerId": "yuk order!",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "currencyCode": "IDR",
         "priceAmount1000": "10000000",
@@ -36,7 +36,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
 }
 handler.help = ['iklan1']
 handler.tags = ['store']
-handler.command = /^iklan1)$/
+handler.command = /^(iklan1)$/
 
 module.exports = handler
 
