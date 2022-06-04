@@ -9,14 +9,15 @@ let handler = async(m, { conn }) => {
         buttonText: 'STORE ZIFABOTZ',
         description: kontol,
         sections:  [{title: "STORE ZIFABOTZ", rows: [
-        {title: 'sewa zifabotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewazifabotz1"},
-        {title: 'Sewa satbotsss', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewasat"},
-        {title: 'Jasa run mursid', description: "jasa run bot", rowId:".runbotmursid"},
-        {title: 'Pasang iklan di bot', description: "jasa pemasang iklan di bot", rowId:".lucbot"},
-        {title: 'Jasa tutorial run replit', description: "tutorial replit", rowId:".replit2"},
-        {title: 'Jasa tutorial run heroku', description: "tutorial heroku", rowId:".heroku3"},
-        {title: 'KEMBALI KE HALAMAN UTAMA', description: "menampilkan menu", rowId:".menu"},
-        {title: 'RULES', description: "taati peraturan", rowId:".rules2"},
+        {title: '🦄» sewa zifabotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewazifabotz1"},
+ {title: '📺» Pasang iklan di zifabotz', description: "menampilkan produk mu", rowId:".iklan1"},
+        {title: '🦄» Sewa satbotsss', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewasat"},
+        {title: '😼» Jasa run mursid', description: "jasa run bot", rowId:".runbotmursid"},
+        {title: '📺» Pasang iklan di bot', description: "jasa pemasang iklan di bot", rowId:".lucbot"},
+        {title: '📦» Jasa tutorial run replit', description: "tutorial replit", rowId:".replit2"},
+        {title: '📦» Jasa tutorial run heroku', description: "tutorial heroku", rowId:".heroku3"},
+        {title: '🗃️» KEMBALI KE HALAMAN UTAMA', description: "menampilkan menu", rowId:".menu"},
+        {title: '📮» RULES', description: "taati peraturan", rowId:".rules2"},
        ] }],
         listType: 1
        }
