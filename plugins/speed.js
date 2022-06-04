@@ -35,7 +35,7 @@ let handler = async (m, { conn }) => {
     }
   })
   let old = performance.now()
-  await m.reply('_*Mengambil Info..*_')
+  await m.reply('_*Memproses info..*_')
   let neww = performance.now()
   let speed = neww - old
   let txt = `
