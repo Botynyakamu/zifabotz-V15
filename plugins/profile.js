@@ -27,7 +27,7 @@ ${about ? '🗒️ • *About:* ' + about : ''}
 
 `.trim()
     let mentionedJid = [who]
-    conn.send2Button(m.chat, str, '©️zifabotz', 'Menu', '.menu', 'donasi', '.donasi', m, false, { contextInfo: { mentionedJid }})
+    conn.send3Button(m.chat, str, '©️zifabotz', '🗃️Menu', '.menu', '💳donasi', '.donasi', '🧒Owner', '.owner', m, false, { contextInfo: { mentionedJid }})
   }
 }
 handler.help = ['profile [@user]']
