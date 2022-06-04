@@ -10,7 +10,7 @@ BIG THANKS TO
 ║│➸ *_BOTCAHX_*
 ║│➸ *_DAN YANG MEMBANTU BOT_*
 ║╭──❉  •BASE NURUTOMO
-║╭──❉ •SC ORI RTXYZ
+║╰──❉ •SC ORI RTXYZ
 ═════════════
 `.trim(), watermark, 'TERIMAKASIH👋', '.menu')
 handler.help = ['Thanksto', 'tqto']
