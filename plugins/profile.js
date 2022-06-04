@@ -1,7 +1,10 @@
 let PhoneNumber = require('awesome-phonenumber')
+let fetch = require('node-fetch')
+let fs = require('fs')
 let handler = async (m, { conn }) => {
-  let pp = './src/avatar_contact.png'
+  let _pp = './src/avatar_contact.png'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let ppe = await conn.getProfilePicture(who)
   try {
     pp = await conn.getProfilePicture(who)
   } catch (e) {
@@ -26,7 +29,7 @@ ${about ? '🗒️ • *About:* ' + about : ''}
 
 `.trim()
     let mentionedJid = [who]
-    conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
+    conn.send2ButtonImg(m.chat, await conn.getProfilePicture(m.sender),str, '©️zifabotz', 'MENU', '.menu', 'DONASI', '.donasi', m, { contextInfo: { mentionedJid: [who], forwardingScore: 999, isForwarded: true}})
   }
 }
 handler.help = ['profile [@user]']
