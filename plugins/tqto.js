@@ -1,5 +1,5 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(thanks)).buffer(), `
+let handler = async (m, { conn }) => conn.sendButtonImg(m.chat, await (await fetch(thanks)).buffer(), `
 BIG THANKS TO
 ╭═══════════════════════
 ║╭──❉ 〔 TERIMAKASIH 〕 ❉──────
@@ -8,7 +8,9 @@ BIG THANKS TO
 ║│➸ *_LAYANAN API_*
 ║│➸ *_ALYA_*
 ║│➸ *_BOTCAHX_*
-  •BASE NURUTOMO
+║│➸ *_DAN YANG MEMBANTU BOT_*
+║╭──❉  •BASE NURUTOMO
+║╭──❉ •SC ORI RTXYZ
 ═════════════
 `.trim(), watermark, 'TERIMAKASIH👋', '.menu')
 handler.help = ['Thanksto', 'tqto']
