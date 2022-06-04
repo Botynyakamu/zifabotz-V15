@@ -61,7 +61,7 @@ global.rules = 'https://telegra.ph/file/fc0bcf7e40cb0aa9ff64f.jpg'
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
 global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
 global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
-global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
+global.thanks = 'https://telegra.ph/file/9ed4e9df06e251d624c07.jpg'
 
 global.multiplier = 9999999 // Semakin tinggi, semakin sulit naik level
 
