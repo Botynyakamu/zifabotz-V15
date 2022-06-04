@@ -24,7 +24,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "OWNER ZIFABOTZ",
+        "title": "───────[ OWNER ]───────",
         "description": '\n' + watermark + '\n' + str,
         "retailerId": "Thanks For zifabotz !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
