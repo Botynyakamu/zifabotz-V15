@@ -24,8 +24,9 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
         "description": '\n' + watermark + '\n' + str,
         "retailerId": "Thanks For Donate !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
-        "descriptionCount": "999999999",
-        "productImageCount": "1",
+        "currencyCode": "IDR",
+        "priceAmount1000": "00000",
+"productImageCount": "1",
       },
       "businessOwnerJid": "6287773973818@s.whatsapp.net",
       "contextInfo": {
