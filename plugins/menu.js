@@ -229,7 +229,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 ⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©zifabotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
+▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©️zifabotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
                             {
                                 "rows": [{
                                     "title":  "|📥| ❯╾Donasi╼-",
@@ -511,7 +511,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, '▁ ▂ ▄ ▅ ▆ ▇ █PEMILIK BOT', `.owner2`, '🐻TUTORIAL BUAT BOT🐻', `.tutorial`, m)
+    await conn.send3ButtonImg(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, '▁ ▂ ▄ ▅ ▆ ▇ █PEMILIK BOT', `.owner2`, '🐻TUTORIAL BUAT BOT🐻', `.tutorial`, `📁VERIFY📁`, `.daftar`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
