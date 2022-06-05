@@ -16,7 +16,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "PASANG IKLAN BOT",
+        "title": "JASA PASANG IKLAN",
         "description": '\n' + watermark + '\n' + str,
         "retailerId": "yuk order!",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
@@ -27,7 +27,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "businessOwnerJid": "6287773973818@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
-        "isForwarded": false
+        "isForwarded": true
       }
     }
   },
