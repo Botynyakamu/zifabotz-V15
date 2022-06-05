@@ -31,7 +31,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "businessOwnerJid": "6287773973818@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
-        "isForwarded": false
+        "isForwarded": true
       }
     }
   },
