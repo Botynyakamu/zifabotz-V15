@@ -3,8 +3,12 @@ const fs = require('fs')
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
-let str = `•Pasang iklan katalog: 10.000
-•Pasang iklan list 15.000`
+let str = `››╭─〘 *JASA LOGO* 〙
+╭╡📮: Jasa pembuatan logo hanya menerima via:
+│┝‷✧ *Dana:* 085828764046
+│╰───···─────
+│⁺◛˖ Ingin jasa pembuatan logo? Chat nomor dibawah
+╰──────────···───╮`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
@@ -41,4 +45,3 @@ handler.command = /^(iklan1)$/
 module.exports = handler
 
 let wm = global.botwm
-
