@@ -19,11 +19,11 @@ conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
           "sections": [
                             {
                                 "rows": [{
-                                         "title": 'SCRIPT',
+                                         "title": '🦄» SCRIPT',
                                          "description": "Source Code yang bot gunakan",
                                          "rowId": ".sc"
                                     }, {
-                                         "title": 'MY OWNER', 
+                                         "title": '😼» MY OWNER', 
                                          "description": "Owner ZIFABOTZ",
                                          "rowId": ".owner"
                        }],
