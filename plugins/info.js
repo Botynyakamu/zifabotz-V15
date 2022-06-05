@@ -84,7 +84,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 
 `.trim()
-conn.sendButton(m.chat, str, `©zifabotz`, '🏦GROUP BOT🏦', '.gcbot', m)
+conn.send2Button(m.chat, str, `©️zifabotz`, '🏦GROUP BOT🏦', '.gcbot', 'Owner', '.owner', m)
 
 }
 handler.help = ['info']
