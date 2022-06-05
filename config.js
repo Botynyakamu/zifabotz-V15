@@ -52,8 +52,8 @@ global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the 
 global.thumbfoto = 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg'
 
 // image
-global.iklan1 = 'https://telegra.ph/file/b897f4475ac5e4c26cb06.jpg'
-global.iklan2 = 'https://telegra.ph/file/796c2218d2348f8a60853.jpg'
+global.iklan1 = 'https://telegra.ph/file/bcca5322583deb03f7760.jpg'
+global.iklan2 = 'https://telegra.ph/file/e4cff2af2b64986ca9a14.jpg'
 global.bcloc = 'https://telegra.ph/file/4ab99e9b66c753d25be39.jpg'
 global.bcgroup = 'https://telegra.ph/file/4ac5fa9a50ffd3a1b7ef4.jpg'
 global.donasi = 'https://telegra.ph/file/64d8556e1645572a455a5.jpg'
