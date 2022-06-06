@@ -36,8 +36,8 @@ global.botdate,
                                          "title": '🗃️» LIST MENU',
                                          "rowId": ".menu2"
                                     }, {
-                                         "title": '🔖» SCRIPT',
-                                         "rowId": ".sc"
+                                         "title": '💳» DONASI',
+                                         "rowId": ".donasi"
                        }],
                                 "title": global.wm
                   }
