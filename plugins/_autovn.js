@@ -1,7 +1,7 @@
 let fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn }) => {
-let lmafo = fs.readFileSync('./src/AUD-20200522-WA0283')
+let lmafo = fs.readFileSync('./src/AUD-20200522-WA0288')
 let jembut = fs.readFileSync('./src/AUD-20200522-WA0283')
 conn.sendFile(m.chat, jembut, '', '', m, true)
 setTimeout(() => {
