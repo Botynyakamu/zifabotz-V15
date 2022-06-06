@@ -1,15 +1,10 @@
-let fs = require('fs')
-const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn }) => {
-let lmafo = fs.readFileSync('./src/PTT-20220220-WA0414.opus')
-let jembut = fs.readFileSync('./src/WhatsApp-Audio-2021-06-16-at-14.35.33.opus')
-conn.sendFile(m.chat, jembut, '', '', m, true)
-setTimeout(() => {
-conn.sendFile(m.chat, lmafo, '', '', m, true)
-}, 1000)
-}
+let caption = `*anjir toxic🗿 awokawokaowk truskan bakat mu*`
 
-handler.customPrefix = /^(kontol|memek|jembut|jancok|ngentod|pepek|sial)$/i
+conn.sendButton( m.chat, caption, `©️ zifabotz`, `anjay slibaw`, `.trigger`, m)
+
+       }
+       
+handler.customPrefix = /^(peler|njig|anj|babi|bab1|ngentod|sial|anjir|anjirt|kontol|goblok|pantek|jahanam|ngentod|ngewe|bodoh|memek|ewe|ewek|pepek|asu|asuk|asw)/i
 handler.command = new RegExp
-
 module.exports = handler
