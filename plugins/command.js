@@ -538,7 +538,7 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *║╭──❉ 〔Tanpa Kategori〕*
 *╰───❉*`
 
-conn.sendButton( m.chat, caption, `©️ zifabotz`, `CREATORBOT`, `.owner`, m)
+conn.send2Button( m.chat, caption, `©️ zifabotz`, `CREATORBOT`, `.owner`, `Rules`, `.rules`, m)
 
        }
        
