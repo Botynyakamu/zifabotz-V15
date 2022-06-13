@@ -9,7 +9,7 @@ conn.sendFile(m.chat, lmafo, '', '', m, true)
 }, 1000)
 }
 
-handler.customPrefix = /^(sc||.sc|script|sourcode|.sourcode|.script)$/i
+handler.customPrefix = /^(sc|.sc|script|sourcode|.sourcode|.script)$/i
 handler.command = new RegExp
 
 module.exports = handler
