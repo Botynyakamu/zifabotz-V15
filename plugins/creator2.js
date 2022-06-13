@@ -26,13 +26,13 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
         "productId": "4938174216214248",
         "title": "───────[ OWNER ]───────",
         "description": '\n' + watermark + '\n' + str,
-        "retailerId": "Thanks For zifabotz !",
+        "retailerId": "Thanks For owner !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "currencyCode": "IDR",
         "priceAmount1000": "7000000000000000", 
         "productImageCount": "1",
       },
-      "businessOwnerJid": "global.own@s.whatsapp.net",
+      "businessOwnerJid": "6287773973818@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
